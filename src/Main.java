@@ -8,7 +8,7 @@ public class Main {
         balance = balance + payment;
 
         if (payment >= minDiscountPayment) {
-            balance = balance + payment/discountAmount;
+            balance = balance + payment / discountAmount;
         }
 
         System.out.println("Итоговая сумма на вашем счёте " + balance);
